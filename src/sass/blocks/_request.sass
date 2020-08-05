@@ -1,0 +1,85 @@
+.request
+   background: url('../img/kuhna.png') right top no-repeat
+   background-size: contain
+   background: cover
+   padding-top: 84px
+   padding-bottom: 94px
+   position: relative
+   &:before
+      content: " "
+      width: 50%
+      height: 100%
+      background-color: #ffffff
+      position: absolute
+      top: 0
+      left: 0
+   &-block
+      position: relative
+   &-form
+      width: 450px
+      &__title
+         max-width: 345px
+         color: $main-text-color
+         font-family: "Museo Sans bold" , sans-serif
+         font-size: 24px
+         line-height: 35px
+         margin-bottom: 24px
+      &__subtitle
+         display: block
+         color: $main-text-color
+         font-family: "Museo Sans light"
+         font-size: 16px
+         max-width: 231px
+         margin-bottom: 30px
+      &__form
+         .input-block
+            display: flex
+            justify-content: space-between
+            input
+               width: 100%
+               padding: 20px
+               border: 1px solid #dddddd
+               border-radius: 10px
+               margin-bottom: 30px
+               color: #999999
+               font-family: "Museo Sans light"
+               font-size: 15px
+               font-weight: 400
+               line-height: 24px
+      .form__button
+         width: 100%
+         font-family: "Museo Sans bold"
+         margin-bottom: 30px
+         height: 70px
+         cursor: pointer
+      .form-fooster
+         display: flex
+         justify-content: space-between
+         p
+            max-width: 48%
+         a
+
+            display: block
+@media ( max-width: 970px )
+   .request
+      background: #ffffff
+      &-form
+         margin: 0 auto
+         width: 80%
+         &__form
+            input
+
+               margin-bottom: 10px
+@media ( max-width: 760px )
+   .input-block
+      flex-wrap: wrap
+      input
+         width: 100%
+         margin-bottom: 10px
+@media ( max-width: 540px )
+   .request-form
+      &__form
+         flex-wrap: nowrap
+         input
+
+            margin-bottom: 10px

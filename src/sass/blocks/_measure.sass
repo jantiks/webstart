@@ -1,0 +1,72 @@
+.measure
+   &__title
+      margin: 0 auto
+      font-family: 'Museo Sans bold' , sans-serif
+      font-size: 30px
+      line-height: 1.5
+      text-align: center
+      color: #000000
+      margin-bottom: 55px
+      max-width: 660px
+   &__subtitle
+      display: block
+      font-size: 20px
+      font-family: 'museo sans light' , sans-serif
+      text-align: center
+      color: #000000
+      margin-bottom: 65px
+   &-body
+      display: flex
+      justify-content: space-between
+   &-element
+      margin: 0 auto
+      margin-bottom: 10px
+      text-align: center
+      max-width: 155px
+   &__img
+      margin-bottom: 30px
+      position: relative
+      &::after
+         content: url(../img/arrow.png)
+         position: absolute
+         left: 103%
+         top: -10%
+      &:last-child
+         &::after
+            display: none
+      img
+         border: solid 3px $main-color
+         border-radius: 40px
+         padding: 20px
+   #lastImg
+      &::after
+         display: none
+   &__text
+      font-family: 'museo sans light',sans-serif
+      font-size: 14px
+      font-weight: 300
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.43
+      letter-spacing: normal
+      text-align: center
+      color: #000000
+@media ( max-width:1200px )
+   .measure
+      &__img
+         &::after
+            left: 90%
+            top: -10%
+@media ( max-width: 970px )
+   .measure
+      &__img
+         &::after
+            left: 76%
+            top: -10%
+@media ( max-width: 790px )
+   .measure
+      &-body
+         flex-wrap: wrap
+      &__img
+         &::after
+            display: none

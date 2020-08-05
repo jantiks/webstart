@@ -1,0 +1,83 @@
+.price
+   padding: 100px 0 100px
+   &__title
+      max-width: 500px
+      text-align: center
+      margin: 0 auto
+      margin-bottom: 40px
+      font-size: 30px
+      font-family: 'museo sans bold' , sans-serif
+   &__subtitle
+      display: block
+      font-size: 20px
+      margin: 0 auto
+      margin-bottom: 30px
+      text-align: center
+   &-body
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      align-items: center
+   &__elements
+      border: 1px solid #E8E8E8
+      padding-bottom: 30px
+      margin: auto
+      margin-bottom: 30px
+      transition: 0.2s
+      &:hover
+         box-shadow: 0px 15px  15px #d3d3d3
+   &__know
+      text-decoration: none
+      color: #000000
+      display: block
+      margin: auto
+      text-align: center
+      margin-bottom: 30px
+      font-size: 18px
+   &-image
+      position: relative
+      &::before
+         top: 0
+         left: 0
+         content: ''
+         display: block
+         width: 100%
+         height: 100%
+         background: rgb(255,210,0)
+         background: linear-gradient(0deg, rgba(255,210,0,1) 0%, rgba(255,255,255,0) 70%)
+         position: absolute
+         opacity: 0
+         z-index: 1
+         transition: 0.2s
+      &:hover
+         &::before
+            opacity: 1
+   &__img
+      width: 370px
+      object-fit: cover
+      height: 260px
+      margin-bottom: 20px
+      display: block
+   &__show
+      display: block
+      text-align: center
+      text-decoration: none
+      font-size: 16px
+      color: $main-text-color
+      position: relative
+      transition: 2s
+      font-family: 'museo sans bold' , sans-serif
+      &::before
+         bottom: -4px
+         left: 37%
+         content: ''
+         display: block
+         width: 96px
+         height: 3px
+         background-color: $main-color
+         position: absolute
+         z-index: -1
+         transition: 0.2s
+      &:hover
+         &::before
+            height: 12px
