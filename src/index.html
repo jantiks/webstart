@@ -1,327 +1,450 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/slick-theme.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-block">
-          <div class="navbar__logo">
-            <img src="img/logo.png" alt="" />
-          </div>
-          <!-- /.navbar__logo -->
-          <div class="navbar__info">
-            <div class="navbar__contacts">
-              <span class="navbar__addres">Калуга, Москва, МО </span>
-              <a href="tel:+7 (495) 42-251-31" class="navbar__phone tel"
-                >+7 (495) 42-251-31</a
-              >
-            </div>
-            <button class="button navbar__button" id="button">
-              Перезвоните мне
-            </button>
-            <!-- /.button navbar__button -->
-            <!-- /.navbar__contacts -->
-          </div>
-          <!-- /.navbar__info -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-block">
+        <div class="navbar__logo">
+          <img src="img/logo.png" alt="" />
         </div>
-        <!-- /.navbar-block -->
-      </div>
-      <!-- /.container -->
-    </nav>
-    <!-- /.navbar -->
-    <header class="hero">
-      <div class="container">
-        <div class="header-block">
-          <div class="header-block__text">
-            <h1 class="wow fadeInUp">
-              Внутренняя отделка помещений "под ключ"
-            </h1>
-            <strong class="wow fadeInUp"
-              >с гарантией качества, прописанной в договоре</strong
-            >
-            <div
-              class="header-block__text__advantages wow fadeInLeft"
-              data-wow-delay="0.2s"
-              id="first-advantage"
-            >
-              <img src="img/clock.png" alt="" />
-              <p>Точно соблюдаем сроки</p>
-            </div>
-            <div
-              class="header-block__text__advantages wow fadeInLeft"
-              data-wow-delay="0.4s"
-            >
-              <img src="img/calculator.png" alt="" />
-              <p>
-                Рассчитаем смету на работы и материалы в день обращения
-              </p>
-            </div>
-            <div
-              class="header-block__text__advantages wow fadeInLeft"
-              data-wow-delay="0.6s"
-            >
-              <img src="img/paint.png" alt="" />
-              <p>
-                Предложим более 100 вариантов исполнения дизайна Вашего жилья
-              </p>
-            </div>
+        <!-- /.navbar__logo -->
+        <div class="navbar__info">
+          <div class="navbar__contacts">
+            <span class="navbar__addres">Калуга, Москва, МО </span>
+            <a href="tel:+7 (495) 42-251-31" class="navbar__phone tel">+7 (495) 42-251-31</a>
           </div>
-          <!-- /.header__text -->
-          <div class="header__photo"><img src="img/interier.jpg" alt="" /></div>
-          <!-- /.header__photo -->
+          <button class="button navbar__button" id="button">
+            Перезвоните мне
+          </button>
+          <!-- /.button navbar__button -->
+          <!-- /.navbar__contacts -->
         </div>
-        <!-- /.header-block -->
+        <!-- /.navbar__info -->
       </div>
-      <!-- /.container -->
-    </header>
-    <!-- /.hero -->
-    <section class="request">
-      <div class="request-block">
-        <div class="container">
-          <div class="request-form">
-            <h2 class="request-form__title">
-              Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем
-              его!
-            </h2>
-            <span class="request-form__subtitle"
-              >Оставьте заявку на разработку бесплатного дизайн-проекта!
-            </span>
-            <from class="request-form__form">
-              <div class="input-block">
-                <input type="text" placeholder="Ваше имя" />
-                <input type="tel" placeholder="Ваш телефон" />
-              </div>
-              <button class="button form__button">
-                Получить бесплатный дизайн-проект
-              </button>
-            </from>
-            <div class="form-footer">
-              <p class="request-form__text">
-                Наш менеджер перезвонит Вам в течение 60 секунд
-              </p>
-              <p class="request-form__text">
-                или перезвоните нам сами
-                <a
-                  href="tel:+7 (495) 42-251-31
-                  "
-                  class="tel"
-                  >+7 (495) 42-251-31</a
-                >
-              </p>
-            </div>
-          </div>
-          <!-- /.request-form -->
-        </div>
-      </div>
-      <!-- /.request-block -->
-    </section>
-    <!-- /.request -->
-    <section class="slider">
-      <div class="container">
-        <div class="slider-block">
-          <h2 class="slider__title wow fadeInUp">
-            Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и
-            домах
-          </h2>
-          <div class="slider__slides wow flipInX">
-            <img
-              class="wow flipInX"
-              data-wow-delay="0.1s"
-              src="img/slider/slide1.jpg"
-              alt=""
-            />
-            <img
-              class="wow flipInX"
-              data-wow-delay="0.2s"
-              src="img/slider/slide2.jpg"
-              alt=""
-            />
-            <img
-              class="wow flipInX"
-              data-wow-delay="0.3s"
-              src="img/slider/slide3.jpg"
-              alt=""
-            />
-            <img src="img/slider/slide1.jpg" alt="" />
-            <img src="img/slider/slide2.jpg" alt="" />
-            <img src="img/slider/slide3.jpg" alt="" />
-          </div>
-          <div class="slider__arrows">
-            <img class="left_arrow" src="img/slider/left.png" alt="" />
-            <img class="right_arrow" src="img/slider/right.png" alt="" />
-          </div>
-        </div>
-        <!-- /.slider-block -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.slider -->
-    <section class="price">
-      <div class="container">
-        <div class="price-wrapper">
-          <h2 class="price__title wow fadeInDown">
-            У нас очень гибкая система скидок на комплексные работы!
-          </h2>
-          <!-- /.price__title -->
-          <span class="price__subtitle wow fadeInDown"
-            >Прайс на наши услуги
-          </span>
-          <!-- /.price__subtitle -->
-          <div class="price-body">
-            <div class="price__elements wow fadeInUp" data-wow-delay="0.1s">
-              <div class="price-image">
-                <img src="img/priceImg1.png" alt="" class="price__img" />
-              </div>
-              <h3>
-                <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
-              </h3>
-              <a href="#" class="price__show">Узнать цены</a>
-            </div>
-            <!-- /.price__elements -->
-            <div class="price__elements wow fadeInUp" data-wow-delay="0.2s">
-              <div class="price-image">
-                <img src="img/priceImg2.png" alt="" class="price__img" />
-              </div>
-              <h3>
-                <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
-              </h3>
-              <a href="#" class="price__show">Узнать цены</a>
-            </div>
-            <!-- /.price__elements -->
-            <div class="price__elements wow fadeInUp" data-wow-delay="0.3s">
-              <div class="price-image">
-                <img src="img/priceImg3.png" alt="" class="price__img" />
-              </div>
-              <h3>
-                <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
-              </h3>
-              <a href="#" class="price__show">Узнать цены</a>
-            </div>
-            <!-- /.price__elements -->
-            <div class="price__elements wow fadeInUp" data-wow-delay="0.4s">
-              <div class="price-image">
-                <img src="img/priceImg4.png" alt="" class="price__img" />
-              </div>
-              <h3>
-                <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
-              </h3>
-              <a href="#" class="price__show">Узнать цены</a>
-            </div>
-            <!-- /.price__elements -->
-            <div class="price__elements wow fadeInUp" data-wow-delay="0.5s">
-              <div class="price-image">
-                <img src="img/priceImg5.png" alt="" class="price__img" />
-              </div>
-              <h3>
-                <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
-              </h3>
-              <a href="#" class="price__show">Узнать цены</a>
-            </div>
-            <!-- /.price__elements -->
-            <div class="price__elements wow fadeInUp" data-wow-delay="0.6s">
-              <div class="price-image">
-                <img src="img/priceImg6.png" alt="" class="price__img" />
-              </div>
-              <h3>
-                <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
-              </h3>
-              <a href="#" class="price__show">Узнать цены</a>
-            </div>
-            <!-- /.price__elements -->
-          </div>
-          <!-- /.price-body -->
-        </div>
-        <!-- /.price-wrapper -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.price -->
-    <section class="measure">
-      <div class="container">
-        <h2 class="measure__title">
-          Наши специалисты готовы выехать на замер в любое удобное для Вас время
-        </h2>
-        <!-- /.measure__title -->
-        <span class="measure__subtitle">5 шагов до ремонта </span>
-        <!-- /.measure__subtitle -->
-        <div class="measure-body">
-          <div class="measure-element">
-            <div class="measure__img"><img src="img/woman.png" alt="" /></div>
-            <!-- /.measure__img -->
-            <span class="measure__text"
-              >Вы звоните нам или оставляете заявку
-            </span>
-            <!-- /.measure__text -->
-          </div>
-          <!-- /.measure-element -->
-          <div class="measure-element">
-            <div class="measure__img"><img src="img/clock2.png" alt="" /></div>
-            <!-- /.measure__img -->
-            <span class="measure__text"
-              >Согласуем удобное для Вас время выезда специалиста на замер
-            </span>
-            <!-- /.measure__text -->
-          </div>
-          <!-- /.measure-element -->
-          <div class="measure-element">
-            <div class="measure__img"><img src="img/money.png" alt="" /></div>
-            <!-- /.measure__img -->
-            <span class="measure__text"
-              >Рассчитываем смету согласовываем с Вами
-            </span>
-            <!-- /.measure__text -->
-          </div>
-          <!-- /.measure-element -->
-          <div class="measure-element">
-            <div class="measure__img"><img src="img/doc.png" alt="" /></div>
-            <!-- /.measure__img -->
-            <span class="measure__text"
-              >Подписываем договор закупаем материал по оптовым ценам
-            </span>
-            <!-- /.measure__text -->
-          </div>
-          <!-- /.measure-element -->
-          <div class="measure-element">
-            <div class="measure__img" id="lastImg">
-              <img src="img/calendar.png" alt="" />
-            </div>
-            <!-- /.measure__img -->
-            <span class="measure__text"
-              >Выполняем ремонтв указанные сроки
-            </span>
-            <!-- /.measure__text -->
-          </div>
-          <!-- /.measure-element -->
-        </div>
-        <!-- /.measure-body -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.measure -->
-    <div class="modal" id="modal">
-      <div class="modal-dialog">
-        <button class="modal-dialog__close" id="close">&times;</button>
-        <h4 class="modal-dialog__title">всплываюшее окно</h4>
-      </div>
-      <!-- /.modal-dialog -->
+      <!-- /.navbar-block -->
     </div>
-    <!-- /.modal -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-  </body>
+    <!-- /.container -->
+  </nav>
+  <!-- /.navbar -->
+  <header class="hero">
+    <div class="container">
+      <div class="header-block">
+        <div class="header-block__text">
+          <h1 class="wow fadeInUp">
+            Внутренняя отделка помещений "под ключ"
+          </h1>
+          <strong class="wow fadeInUp">с гарантией качества, прописанной в договоре</strong>
+          <div class="header-block__text__advantages wow fadeInLeft" data-wow-delay="0.2s" id="first-advantage">
+            <img src="img/clock.png" alt="" />
+            <p>Точно соблюдаем сроки</p>
+          </div>
+          <div class="header-block__text__advantages wow fadeInLeft" data-wow-delay="0.4s">
+            <img src="img/calculator.png" alt="" />
+            <p>
+              Рассчитаем смету на работы и материалы в день обращения
+            </p>
+          </div>
+          <div class="header-block__text__advantages wow fadeInLeft" data-wow-delay="0.6s">
+            <img src="img/paint.png" alt="" />
+            <p>
+              Предложим более 100 вариантов исполнения дизайна Вашего жилья
+            </p>
+          </div>
+        </div>
+        <!-- /.header__text -->
+        <div class="header__photo"><img src="img/interier.jpg" alt="" /></div>
+        <!-- /.header__photo -->
+      </div>
+      <!-- /.header-block -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.hero -->
+  <section class="request">
+    <div class="request-block">
+      <div class="container">
+        <div class="request-form">
+          <h2 class="request-form__title">
+            Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем
+            его!
+          </h2>
+          <span class="request-form__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!
+          </span>
+          <from action="#" class="request-form__form">
+            <div class="input-block">
+              <input type="text" placeholder="Ваше имя" />
+              <input type="tel" placeholder="Ваш телефон" />
+            </div>
+            <button class="button form__button">
+              Получить бесплатный дизайн-проект
+            </button>
+          </from>
+          <div class="form-footer">
+            <p class="request-form__text">
+              Наш менеджер перезвонит Вам в течение 60 секунд
+            </p>
+            <p class="request-form__text">
+              или перезвоните нам сами
+              <a href="tel:+7 (495) 42-251-31
+                  " class="tel">+7 (495) 42-251-31</a>
+            </p>
+          </div>
+        </div>
+        <!-- /.request-form -->
+      </div>
+    </div>
+    <!-- /.request-block -->
+  </section>
+  <!-- /.request -->
+  <section class="slider">
+    <div class="container">
+      <div class="slider-block">
+        <h2 class="slider__title wow fadeInUp">
+          Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и
+          домах
+        </h2>
+        <div class="slider__slides wow flipInX">
+          <img class="wow flipInX" data-wow-delay="0.1s" src="img/slider/slide1.jpg" alt="" />
+          <img class="wow flipInX" data-wow-delay="0.2s" src="img/slider/slide2.jpg" alt="" />
+          <img class="wow flipInX" data-wow-delay="0.3s" src="img/slider/slide3.jpg" alt="" />
+          <img src="img/slider/slide1.jpg" alt="" />
+          <img src="img/slider/slide2.jpg" alt="" />
+          <img src="img/slider/slide3.jpg" alt="" />
+        </div>
+        <div class="slider__arrows">
+          <img class="left_arrow" src="img/slider/left.png" alt="" />
+          <img class="right_arrow" src="img/slider/right.png" alt="" />
+        </div>
+      </div>
+      <!-- /.slider-block -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.slider -->
+  <section class="price">
+    <div class="container">
+      <div class="price-wrapper">
+        <h2 class="price__title wow fadeInDown">
+          У нас очень гибкая система скидок на комплексные работы!
+        </h2>
+        <!-- /.price__title -->
+        <span class="price__subtitle wow fadeInDown">Прайс на наши услуги
+        </span>
+        <!-- /.price__subtitle -->
+        <div class="price-body">
+          <div class="price__elements wow fadeInUp" data-wow-delay="0.1s">
+            <div class="price-image">
+              <img src="img/priceImg1.png" alt="" class="price__img" />
+            </div>
+            <h3>
+              <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
+            </h3>
+            <a href="#" class="price__show">Узнать цены</a>
+          </div>
+          <!-- /.price__elements -->
+          <div class="price__elements wow fadeInUp" data-wow-delay="0.2s">
+            <div class="price-image">
+              <img src="img/priceImg2.png" alt="" class="price__img" />
+            </div>
+            <h3>
+              <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
+            </h3>
+            <a href="#" class="price__show">Узнать цены</a>
+          </div>
+          <!-- /.price__elements -->
+          <div class="price__elements wow fadeInUp" data-wow-delay="0.3s">
+            <div class="price-image">
+              <img src="img/priceImg3.png" alt="" class="price__img" />
+            </div>
+            <h3>
+              <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
+            </h3>
+            <a href="#" class="price__show">Узнать цены</a>
+          </div>
+          <!-- /.price__elements -->
+          <div class="price__elements wow fadeInUp" data-wow-delay="0.4s">
+            <div class="price-image">
+              <img src="img/priceImg4.png" alt="" class="price__img" />
+            </div>
+            <h3>
+              <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
+            </h3>
+            <a href="#" class="price__show">Узнать цены</a>
+          </div>
+          <!-- /.price__elements -->
+          <div class="price__elements wow fadeInUp" data-wow-delay="0.5s">
+            <div class="price-image">
+              <img src="img/priceImg5.png" alt="" class="price__img" />
+            </div>
+            <h3>
+              <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
+            </h3>
+            <a href="#" class="price__show">Узнать цены</a>
+          </div>
+          <!-- /.price__elements -->
+          <div class="price__elements wow fadeInUp" data-wow-delay="0.6s">
+            <div class="price-image">
+              <img src="img/priceImg6.png" alt="" class="price__img" />
+            </div>
+            <h3>
+              <a href="#" class="price__know">Ремонт ванных комнат и с/у</a>
+            </h3>
+            <a href="#" class="price__show">Узнать цены</a>
+          </div>
+          <!-- /.price__elements -->
+        </div>
+        <!-- /.price-body -->
+      </div>
+      <!-- /.price-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.price -->
+  <section class="measure">
+    <div class="container">
+      <h2 class="measure__title">
+        Наши специалисты готовы выехать на замер в любое удобное для Вас время
+      </h2>
+      <!-- /.measure__title -->
+      <span class="measure__subtitle">5 шагов до ремонта </span>
+      <!-- /.measure__subtitle -->
+      <div class="measure-body">
+        <div class="measure-element">
+          <div class="measure__img"><img src="img/woman.png" alt="" /></div>
+          <!-- /.measure__img -->
+          <span class="measure__text">Вы звоните нам или оставляете заявку
+          </span>
+          <!-- /.measure__text -->
+        </div>
+        <!-- /.measure-element -->
+        <div class="measure-element">
+          <div class="measure__img"><img src="img/clock2.png" alt="" /></div>
+          <!-- /.measure__img -->
+          <span class="measure__text">Согласуем удобное для Вас время выезда специалиста на замер
+          </span>
+          <!-- /.measure__text -->
+        </div>
+        <!-- /.measure-element -->
+        <div class="measure-element">
+          <div class="measure__img"><img src="img/money.png" alt="" /></div>
+          <!-- /.measure__img -->
+          <span class="measure__text">Рассчитываем смету согласовываем с Вами
+          </span>
+          <!-- /.measure__text -->
+        </div>
+        <!-- /.measure-element -->
+        <div class="measure-element">
+          <div class="measure__img"><img src="img/doc.png" alt="" /></div>
+          <!-- /.measure__img -->
+          <span class="measure__text">Подписываем договор закупаем материал по оптовым ценам
+          </span>
+          <!-- /.measure__text -->
+        </div>
+        <!-- /.measure-element -->
+        <div class="measure-element">
+          <div class="measure__img" id="lastImg">
+            <img src="img/calendar.png" alt="" />
+          </div>
+          <!-- /.measure__img -->
+          <span class="measure__text">Выполняем ремонтв указанные сроки
+          </span>
+          <!-- /.measure__text -->
+        </div>
+        <!-- /.measure-element -->
+      </div>
+      <!-- /.measure-body -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.measure -->
+  <section class="yellow">
+    <div class="container">
+      <div class="h2 yellow__title">
+        Ремонт обойдется Вам дешевле, так как мы используем качественные
+        материалы по оптовым ценам
+      </div>
+      <!-- /.h2 yellow__title -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.yello -->
+  <section class="offer">
+    k
+    <div class="container">
+      <div class="offer-cards">
+        <div class="offer-card wow flipInY">
+          <span class="offer__title">Поможем закупить все материалы по оптовым ценам у проверенных
+            поставщиков </span><img class="offer__img" src="img/man1.png" alt="" />
+        </div>
+        <!-- /.offer-card -->
+        <div class="offer-card wow flipInY">
+          <span class="offer__title">Мы дадим Вам максимальные скидки у наших партнеров для закупки
+            материалов оптом </span><img class="offer__img" src="img/man2.png" alt="" />
+        </div>
+        <!-- /.offer-card -->
+        <div class="offer-card wow flipInY">
+          <span class="offer__title">Все, что не сможете найти в городе - поможем заказать у
+            проверенных поставщиков </span><img class="offer__img" src="img/man3.png" alt="" />
+        </div>
+        <!-- /.offer-card -->
+      </div>
+      <!-- /.offer-cards -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.offer -->
+  <section class="warranty">
+    <div class="container">
+      <h2 class="warranty__title">
+        Все наши гарантийные обязательства подробно и прозрачно описаны в
+        договоре
+      </h2>
+      <div class="warranty-row">
+        <div class="warranty-item">
+          <img class="warranty__img" src="img/garanty1.png" alt="" />
+          <span class="warranty__text">Гарантия на качество <br />
+            выполняемых работ</span>
+        </div>
+        <!-- /.warranty-item -->
+        <div class="warranty-item">
+          <img class="warranty__img" src="img/garanty2.png" alt="" />
+
+          <span class="warranty__text">Гарантия на фиксированные цены Виды работ и цены на них прописаны
+            в договоре</span>
+        </div>
+        <!-- /.warranty-item -->
+        <div class="warranty-item">
+          <img class="warranty__img" src="img/garanty3.png" alt="" />
+
+          <span class="warranty__text">Гарантия на точное соблюдение сроков и ответственность за их
+            невыполнение</span>
+        </div>
+        <!-- /.warranty-item -->
+      </div>
+      <!-- /.warranty-row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.warranty -->
+  <section class="brif">
+    <div class="container">
+      <div class="brif-body">
+        <div class="brif-interview">
+          <h3 class="brif-interview__title">
+            Мы можем озвучить Вам примерную стоимость работы и материалов по
+            телефону
+          </h3>
+          <span class="brif-interview__subtitle">Для этого нужно ответить на 4 вопроса:</span>
+          <ul class="brif-interview-list">
+            <li class="brif-interview__item">
+              <span class="brif-interview__counter">1</span>
+              <span class="brif-interview__text">Какова площадь помещения?
+              </span>
+            </li>
+            <!-- /.interview__item -->
+            <li class="brif-interview__item">
+              <span class="brif-interview__counter">2</span>
+              <span class="brif-interview__text">У Вас новостройка или вторичное жилье?
+              </span>
+            </li>
+            <!-- /.interview__item -->
+            <li class="brif-interview__item">
+              <span class="brif-interview__counter">3</span>
+              <span class="brif-interview__text">Где находится помещение, в котором будет производиться
+                ремонт?
+              </span>
+            </li>
+            <!-- /.interview__item -->
+            <li class="brif-interview__item">
+              <span class="brif-interview__counter">4</span>
+              <span class="brif-interview__text">Назначение помещения?</span>
+            </li>
+            <!-- /.interview__item -->
+          </ul>
+          <!-- /.interview-list -->
+        </div>
+        <!-- /.brif-interview -->
+        <div class="brif-form">
+          <h3 class="brif-form__title">
+            Оставьте заявку на бесплатный расчет ремонта по телефону
+          </h3>
+          <span class="brif-form__subtitle">Для этого заполните форму ниже
+          </span>
+          <form action="#" class="brif-form__form" id="brif-form">
+            <input type="name" name="username" minlength="3" class="brif-form__input" placeholder="Ваше имя" />
+            <input type="tel" name="phone" class="brif-form__input" id="phone" placeholder="Ваш телефон" />
+            <input type="email" name="email" class="brif-form__input" placeholder="Ваш email" />
+            <button class="brif-form__button button">
+              Рассчитать стоимость
+            </button>
+          </form>
+          <span class="brif-form__text">Мы перезвоним Вам в течение 60 секунд
+          </span>
+        </div>
+        <!-- /.brif-form -->
+      </div>
+      <!-- /.brif-body -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.brif -->
+  <div class="modal" id="modal">
+    <div class="modal-dialog">
+      <button class="modal-dialog__close" id="close">&times;</button>
+      <h4 class="modal-dialog__title">всплываюшее окно</h4>
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <footer class="footer">
+    <div class="map">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A2cb4664632c4389c90457a6ee552dc991f3cb1496a0f2c5e0ab95c41f766f7ca&amp;source=constructor"
+        width="100%" height="640" frameborder="0"></iframe>
+    </div>
+    <!-- /.map -->
+
+    <div class="footer-body">
+      <h3 class="footer__title">Приезжайте к нам в гости! Проконсультируем Вас по всем вопроса</h3>
+      <ul class="footer__footer">
+        <li class="footer__items"><span class="footer__footer__title">г. Москва </span><br>ул. Ленинга, д. 10,<br>корпус
+          2, оф. 308</li>
+        <li class="footer__items"><span class="footer__footer__title">Режим работы:</span><br>с 9:00 до 18:00 </li>
+        <li class="footer__items"><span class="footer__footer__title">Телефон:</span><br><a class="footer__footer__link tel
+            href=" tel:+7(495) 42-251-31">+ 7 (495) 42-251-31</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    $('#phone').mask('+7 (999) 999 9999');
+  </script>
+</body>
+
 </html>
