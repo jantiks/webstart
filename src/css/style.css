@@ -754,7 +754,7 @@ h2 {
 }
 
 .brif {
-  background-image: url(../img/brif/leftbg.png), url(../img/brif/rightbg.jpg);
+  background-image: url(../img/brif/leftbg.jpg), url(../img/brif/rightbg.jpg);
   background-position: top left , top right;
   background-size: 50% , cover;
   background-repeat: repeat-y,no-repeat;
